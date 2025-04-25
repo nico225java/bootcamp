@@ -54,9 +54,70 @@ public class reviewwk1 {
       number3 = num + number;
       System.out.println(number3);
       double decimal2 = 10.0d;
+      double decimal3 = 10.0;
       float floatValue = 0.0f;
       long bignumber = 100000000000L;
+      byte smallNumber = 10;//in btw -128to127, system is treated as an 'int'
+
+    //!!String 1
+    String name1 = "hobo";
+    String str1 = "Hello";
+    String str2 = "World";
+    String result = str1 + str2; //+
+    System.out.println(result);
+
+    int number1 = 42;
+    String message = "The ans is:" + number1;//可以用String去整合
+    System.out.println(message); //!用String整合後不用在 out println作詳細展示
+
+    char a = 'A';
+    String message2 = "The answer is :"+a;
+    System.err.println(message2);
+    String message1 = "i am " + age + " year old."; //age already deflaut in line 6!
+    System.out.println(message1);
+    
+    double price =9.99d;
+    String item = "Book";
+    String description ="The " + item +" cost $" +price;
+    System.out.println(description);
+
+    boolean isJavaFun = true;
+    String message4 = "Is Java fun? " + isJavaFun;
+    System.out.println(message4);
+    char grade ='A'; //?? why char GPA = 4.0; cannot read?->因為char 意思係只出文字&整數！
+    double GPA = 4.0;
+    //float GPA =4.0f;//^ 變數需要在單引號內指定字符
+    System.out.println("ZZZ: "+GPA);
+    
+    
+    String result1 = "your GPA is " +GPA;
+    String result2 = " Your grade  is " +grade;
+     System.out.println(result2);
+     System.out.println(result1);
       
+      String name2 = "Nicole";
+      //int length = abc.length (3);
+      //System.out.println("The length of the word: " + length);???
+
+      String name3 = "little one party room";
+      String name5 = " WELCOME";
+      String result3 = name3 + name5; // + operator
+      System.out.println(result3);
+
+      int number2 = 42;
+      String message3 = "The answer is: "+ number2; 
+
+
+
+      //**int[] name4 = new int[4];// int[] no space in btw int&[];
+
+
+
+
+
+
+
+
 
 
 
@@ -70,5 +131,7 @@ public class reviewwk1 {
 
 }
   //System.out.println(salary);//!if out of the {}scope is no longer accessible!!
+
+
 }
 
